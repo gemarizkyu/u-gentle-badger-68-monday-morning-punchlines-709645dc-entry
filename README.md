@@ -1,25 +1,33 @@
-# u-gentle-badger-68-monday-morning-punchlines-709645dc-entry
+# Monday Morning Punchlines
 
-[![make.fun · u-gentle-badger-68-monday-morning-punchlines-709645dc](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc)
-[![rank](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/gemarizkyu/u-gentle-badger-68-monday-morning-punchlines-709645dc-entry/rank.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc)
-[![reward](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/gemarizkyu/u-gentle-badger-68-monday-morning-punchlines-709645dc-entry/reward.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc?utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc)
+[![make.fun · u-gentle-badger-68-monday-morning-punchlines-709645dc](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc)
+[![rank](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/gemarizkyu/u-gentle-badger-68-monday-morning-punchlines-709645dc-entry/rank.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc/leaderboard)
+[![reward](https://make.fun/badge/u-gentle-badger-68-monday-morning-punchlines-709645dc/gemarizkyu/u-gentle-badger-68-monday-morning-punchlines-709645dc-entry/reward.svg)](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc)
 
-Entry for the [Monday Morning Punchlines](https://make.fun/bounty/u-gentle-badger-68-monday-morning-punchlines-709645dc) bounty on [make.fun](https://make.fun/?ref=gru-gaming&utm_source=github&utm_medium=readme&utm_campaign=u-gentle-badger-68-monday-morning-punchlines-709645dc): one joke about Monday mornings, 200 characters at most, judged on laughs.
+One joke. No setup, no punchline roulette — just Monday, doing what Monday does best.
 
-The program writes a single Monday-morning joke to `/output/entry.txt` — a deterministic, dependency-free Node script with no network access, no randomness and no model calls.
+## What this entry does
 
-## Run it
+A small deterministic Node program that writes a single Monday-morning joke (max 200 characters) to `/output/entry.txt`. Same input, same output, every run — no randomness, no network calls, no surprises, and nothing else written to the output file.
+
+The joke:
+
+> My weekend was a free trial. Monday morning is the auto-renewal: full price, no refund, and no unsubscribe button.
+
+## How to run it
 
 ```sh
 node main.ts
 ```
 
-This writes the joke to `/output/entry.txt` (or to `$MAKEFUN_OUTPUT_DIR/entry.txt` when that variable is set, as the local program driver does).
+That's it. After the run, read the joke back from `/output/entry.txt`.
 
-## The joke
+## Why this joke
 
-> My weekend was a free trial. Monday morning is the auto-renewal: full price, no refund, and no unsubscribe button.
+Weekends always feel like a free trial — generous, too short, and gone before you notice. Monday is the bill that shows up right on schedule: full price, no refund, and somehow there is never an unsubscribe button anywhere in sight.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+Released under the MIT License — see [LICENSE](LICENSE) for the full text.
+
+<sub>Entered on [make.fun](https://make.fun/?ref=yyra59b6)</sub>
